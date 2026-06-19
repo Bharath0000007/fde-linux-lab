@@ -1,0 +1,7 @@
+shipment_id,carrier,status,delay_days,origin,destination
+SH001,DHL,delivered,0,Mumbai,Delhi
+SH002,FedEx,delayed,3,Chennai,Bangalore
+SH003,BlueDart,delivered,0,Pune,Hyderabad
+SH004,DHL,delayed,5,Delhi,Mumbai
+SH005,FedEx,in_transit,0,Bangalore,Chennai
+SH006,BlueDart,delayed,2,Mumbai,Pune

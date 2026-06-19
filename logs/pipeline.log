@@ -1,0 +1,10 @@
+2024-01-15 08:00:01 INFO Pipeline started: supply chain ingest
+2024-01-15 08:00:03 INFO Connecting to source database
+2024-01-15 08:00:05 ERROR Failed to connect: timeout after 30s
+2024-01-15 08:00:06 INFO Retrying connection (attempt 1/3)
+2024-01-15 08:00:10 INFO Connection established
+2024-01-15 08:00:12 INFO Reading 5000 rows from orders table
+2024-01-15 08:00:45 WARNING Null values detected in column: customer_id (1250 rows)
+2024-01-15 08:01:02 INFO Data transformation complete
+2024-01-15 08:01:05 ERROR Schema mismatch: Expected 12 columns, got 11
+2024-01-15 08:01:06 FATAL Pipeline terminated: unrecoverable error
